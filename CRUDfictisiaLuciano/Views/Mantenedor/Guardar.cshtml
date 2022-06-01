@@ -1,0 +1,77 @@
+﻿@model DATOSSEGUROmodel
+@{
+    ViewData["Title"] = "Guardar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Ingresar datos.
+  </div>
+  <div class="card-body">
+        <form asp-action="Guardar" asp-controller="Mantenedor" method="post">
+      <div class="mb-3">
+        <label class="form-label">Nombre Completo</label>
+        <input asp-for="nombrecompleto" type="text" class="form-control" id="exampleInputEmail1" maxlength="50">
+        <span asp-validation-for="nombrecompleto" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Edad</label>
+        <input asp-for="edad" type="number" class="form-control" maxlength="2">
+        <span asp-validation-for="edad" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Género</label>
+        <select asp-for="genero" class="form-select" aria-label="Default select example">
+          <option value=""></option>
+          <option value="M">Masculino</option>
+          <option value="F">Femenino</option>
+        </select>
+        <span asp-validation-for="genero" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Estado</label>
+        <select asp-for="estado" class="form-select" aria-label="Default select example">
+            <option value=""></option>
+          <option value="Si">Si</option>
+          <option value="No">No</option>
+        </select>
+        <span asp-validation-for="estado" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">¿Maneja?</label>
+        <select asp-for="maneja" class="form-select" aria-label="Default select example">
+            <option value=""></option>
+          <option value="Si">Si</option>
+          <option value="No">No</option>
+        </select>
+        <span asp-validation-for="maneja" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">¿Usa lentes?</label>
+        <select asp-for="lentes" class="form-select" aria-label="Default select example">
+            <option value=""></option>
+          <option value="Si">Si</option>
+          <option value="No">No</option>
+        </select>
+        <span asp-validation-for="lentes" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">¿Diabético?</label>
+        <select asp-for="diabetico" class="form-select" aria-label="Default select example">
+            <option value=""></option>
+          <option value="Si">Si</option>
+          <option value="No">No</option>
+        </select>
+        <span asp-validation-for="diabetico" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">¿Padece de alguna otra enfermedad? ¿Cual?</label>
+        <input asp-for="otraenfermedad" type="text" class="form-control" maxlength="50">
+        <span asp-validation-for="otraenfermedad" class="text-danger"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">Guardar Datos</button>
+      <A asp-action="Listar" asp-controller="Mantenedor" class="btn btn-warning" >Volver a lista</A>
+    </form>
+  </div>
+</div>

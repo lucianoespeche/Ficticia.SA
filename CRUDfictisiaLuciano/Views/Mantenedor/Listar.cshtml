@@ -1,0 +1,49 @@
+﻿@model List<DATOSSEGUROmodel>
+@{
+    ViewData["Title"] = "Listar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Lista
+  </div>
+  <div class="card-body">
+    <A asp-action="Guardar" asp-controller="Mantenedor" class="btn btn-success" >Crear nuevo</A>
+    <hr />
+    <table class="table table-bordered">
+        <thread>
+            <tr>
+                <th>Nombre Completo</th>
+                <th>Edad</th>
+                <th>Género</th>
+                <th>Estado</th>   
+                <th>¿Maneja?</th>
+                <th>¿Usa lentes?</th>
+                <th>¿Diabético?</th>
+                <th>¿Padece de alguna otra enfermedad?</th>
+            </tr>
+        </thread>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>@item.nombrecompleto</td>
+                        <td>@item.edad</td>
+                        <td>@item.genero</td>
+                        <td>@item.estado</td>
+                        <td>@item.maneja</td>
+                        <td>@item.lentes</td>
+                        <td>@item.diabetico</td>
+                        <td>@item.otraenfermedad</td>
+                        <td>
+                            <A asp-action="Editar" asp-controller="Mantenedor" class="btn btn-primary btn-sm" asp-route-identificacion="@item.identificacion" >Editar</A>
+                            <A asp-action="Eliminar" asp-controller="Mantenedor" class="btn btn-danger btn-sm" asp-route-identificacion="@item.identificacion" >Eliminar</A>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+
+    </table>
+  </div>
+</div>

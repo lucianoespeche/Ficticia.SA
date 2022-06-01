@@ -1,0 +1,22 @@
+﻿@model DATOSSEGUROmodel
+@{
+    ViewData["Title"] = "Eliminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Eliminar cliente.
+  </div>
+  <div class="card-body">
+        <form asp-action="Eliminar" asp-controller="Mantenedor" method="post">
+            <input asp-for="identificacion" type="hidden" class="form-control" id="exampleInputEmail1">
+            <div class="alert alert-danger" role="alert">
+             ¿Desea eliminar el contacto: @Html.DisplayTextFor(m => m.nombrecompleto) ?
+            </div>
+      <button type="submit" class="btn btn-danger">Eliminar</button>
+      <A asp-action="Listar" asp-controller="Mantenedor" class="btn btn-warning" >Volver a lista</A>
+    </form>
+  </div>
+</div>
+
