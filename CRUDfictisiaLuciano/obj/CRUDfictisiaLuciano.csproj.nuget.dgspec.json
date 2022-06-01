@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luciano Espeche\\source\\repos\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj": {}
+    "C:\\Users\\Luciano Espeche\\Documents\\GitHub\\Fictisia.SA\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luciano Espeche\\source\\repos\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj": {
+    "C:\\Users\\Luciano Espeche\\Documents\\GitHub\\Fictisia.SA\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luciano Espeche\\source\\repos\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj",
+        "projectUniqueName": "C:\\Users\\Luciano Espeche\\Documents\\GitHub\\Fictisia.SA\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj",
         "projectName": "CRUDfictisiaLuciano",
-        "projectPath": "C:\\Users\\Luciano Espeche\\source\\repos\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj",
+        "projectPath": "C:\\Users\\Luciano Espeche\\Documents\\GitHub\\Fictisia.SA\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj",
         "packagesPath": "C:\\Users\\Luciano Espeche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luciano Espeche\\source\\repos\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano\\obj\\",
+        "outputPath": "C:\\Users\\Luciano Espeche\\Documents\\GitHub\\Fictisia.SA\\CRUDfictisiaLuciano\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luciano Espeche\\AppData\\Roaming\\NuGet\\NuGet.Config",

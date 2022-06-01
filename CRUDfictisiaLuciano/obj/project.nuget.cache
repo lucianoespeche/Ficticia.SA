@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yl7gNSpzCrA8Q6RkuiE9uMl2MzLnRjetawDhEXX8KF11ik0JIzfTMun2or7uYA/YWtmxSdk26aseY1JQV7tKYw==",
+  "dgSpecHash": "wU9NWdWuRdxy9fjSwgsC7LMa6o8Qfa4bEXO8mjp7a3cNGO1FC4hkQjOfifvHkpBKQznR0R4qSlVmqH1HRUVYuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luciano Espeche\\source\\repos\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj",
+  "projectFilePath": "C:\\Users\\Luciano Espeche\\Documents\\GitHub\\Fictisia.SA\\CRUDfictisiaLuciano\\CRUDfictisiaLuciano.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luciano Espeche\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Luciano Espeche\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
