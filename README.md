@@ -1,4 +1,4 @@
-# Fictisia.SA
+# Ficticia.SA
 -------
 1) crear BD en SQL Server
  - el .bak se encuentra en la carpeta /backup
